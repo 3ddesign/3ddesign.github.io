@@ -1,81 +1,9 @@
 body {
-    background: url(../img/bg.jpg);
+    background-color: black;
 }
 
-.wrapper {
-    margin: auto;
-    width: 500px;
-    height: 1024px;
-}
-
-.name {
-    font-family: "Arial";
-    font-size: 36px;
+p {
+    color: white;
     font-weight: bold;
     text-align: center;
-}
-
-.pic {
-    margin: auto;
-    width: 200px;
-    height: 200px;
-    border: 1px solid #8f8f8f;
-    background-color: #0055d3;
-}
-
-.text1 {
-    opacity: .8;
-    color: #1f1f1f;
-    font-family: "Arial";
-    font-size: 14px;
-}
-
-.header1 {
-    color: #1f1f1f;
-    font-family: "Myriad Pro";
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.text2 {
-    color: #1f1f1f;
-    font-family: "Myriad Pro";
-    font-size: 14px;
-    margin-left: 37px;
-}
-
-li {
-    color: #1f1f1f;
-    font-family: "Myriad Pro";
-    font-size: 14px;
-}
-
-.links {
-    color: #0056d3;
-    font-family: "Myriad Pro";
-    font-size: 14px;
-    margin-left: 37px;
-    font-style: italic;
-}
-
-hr1 {
-    width: 500px;
-    height: 1px;
-    opacity: .22;
-    background-color: #1f1f1f;
-}
-
-hr2 {
-    width: 500px;
-    height: 1px;
-    opacity: .2;
-    background-color: #656365;
-}
-
-hr3 {
-    width: 500px;
-    height: 1px;
-    opacity: .2;
-    background-color: #1f1f1f;
-    ;
 }
