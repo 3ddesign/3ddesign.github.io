@@ -1,5 +1,5 @@
-$(function() {
+$(document).ready(function() {
 
-	// Пользовательские функции
+
 
 });
