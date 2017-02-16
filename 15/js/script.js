@@ -14,11 +14,12 @@ $(document).ready(function() {
         var request = $('.search').val();
         var URL = "https://pixabay.com/api/?key=" + '4341489-c7135f07e924eb271481ce96f' + "&q=" + encodeURIComponent(request);
         $.getJSON(URL, function(data) {
+          console.log(URL);
             $('.searchresult').empty();
-            data.hits.splice(10);
+            data.hits.splice(8);
             if (parseInt(data.totalHits) > 0)
                 $.each(data.hits, function(i, hit) {
-                    $('.searchresult').append('<a target="_blank" href="' + hit.pageURL + '">' + hit.pageURL + '</a>');
+                    $('.searchresult').append('<img src="' + hit.previewURL + '">');
                 });
             else
                 $('.searchresult').append('<p>По Вашему запросу ничего не найдено...</p>');
