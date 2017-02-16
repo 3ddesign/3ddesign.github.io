@@ -1,0 +1,27 @@
+img {
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.search {
+    margin-bottom: 10px;
+}
+
+.searchresult {
+    border-top: 1px solid grey;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.searchresult a {
+    margin-left: 70px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.searchresult p {
+    margin-left: 160px;
+    margin-top: 28px;
+    display: inline-block;
+}
