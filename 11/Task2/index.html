@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 13-14</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/libs/tmpl.js"></script>
+</head>
+
+<body>
+    <script type="text/html" id="quiz">
+        <div class="container">
+            <div class="row"></div>
+            <div class="col-xs-2"></div>
+            <div class="col-xs-10">
+                <h6>Тест по программированию</h6></div>
+            <h6><%= content.question1 %></h6>
+            <ul class="list-unstyled">
+                <li class="col-lg-12"><input type="checkbox"><label class="small" for="one_one"><%= content.answer1 %></label></li>
+                <li class="col-lg-12"><input type="checkbox"><label class="small" for="two_one"><%= content.answer2 %></label></li>
+                <li class="col-lg-12"><input type="checkbox"><label class="small" for="three_one"><%= content.answer3 %></label></li>
+            </ul>
+            <h6><%= content.question2 %></h6>
+            <ul class="list-unstyled">
+                <li class="col-lg-12"><input type="checkbox"><label class="small" for="one_two"><%= content.answer4 %></label></li>
+                <li class="col-lg-12"><input type="checkbox"><label class="small" for="two_two"><%= content.answer5 %></label></li>
+                <li class="col-lg-12"><input type="checkbox"><label class="small" for="three_two"><%= content.answer6 %></label></li>
+            </ul>
+            <h6><%= content.question3 %></h6>
+            <ul class="list-unstyled">
+                <li class="col-lg-12"><input type="checkbox"><label class="small" for="one_three"><%= content.answer7 %></label></li>
+                <li class="col-lg-12"><input type="checkbox"><label class="small" for="two_three"><%= content.answer8 %></label></li>
+                <li class="col-lg-12"><input type="checkbox"><label class="small" for="three_three"><%= content.answer9 %></label></li>
+            </ul>
+            <div class="row"></div>
+            <div class="col-xs-2"></div>
+            <div class="col-md-10"><button type="button" class="btn btn-primary" id="check">Проверить мои результаты</button></div>
+        </div>
+    </script>
+
+</body>
+
+</html>

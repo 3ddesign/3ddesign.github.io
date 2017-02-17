@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 22-23</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script data-main="js/app" src="js/libs/require.js"></script>
+</head>
+
+<body>
+
+    <script type="text/template" id="wrapper-template">
+        <div class="wrapper">
+            <h2>ToDo List:</h2>
+            <ul class="item-list"></ul>
+            <div class="controlls">
+                <input type="text" class="item-value" placeholder="New Task">
+                <button class="item-add">Add new task</button>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/template" id="list-template">
+        <% for (var i = 0; i < data.length; i++) { %>
+            <li>
+                <%= data[i] %>
+                    <span data-value="<%= data[i] %>" class="item-delete"><img src="img/delete.svg"></span>
+                    <span data-value="<%= data[i] %>" class="item-edit"><img src="img/edit.svg"></span>
+            </li>
+            <% }; %>
+    </script>
+
+</body>
+
+</html>

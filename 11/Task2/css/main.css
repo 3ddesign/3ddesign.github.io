@@ -1,0 +1,4 @@
+.overlay{position:fixed;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,0.7);z-index:10;pointer-events:auto}
+.overlay>div{width:280px;height:60px;text-align:center;position:relative;margin:10% auto;padding-top:5px;border-radius:10px;background:#fff}
+.close{background:#606061;color:grey;position:absolute;right:-12px;top:-12px;width:28px;height:28px;font-weight:bold;border-radius:20px;box-shadow:1px 1px 1px #000}
+.close:hover{background:#606061;color:white;opacity:1}

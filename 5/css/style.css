@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    background-color: #F5F5F5;
+}
+
+
+/*slider*/
+
+.mycarousel {
+    margin: 50px 10% 0 10%;
+}
+
+.mysel {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 110px;
+    height: 0px;
+}
+
+.spantext {
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+
+
+/*checkboxes*/
+
+.forms {
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+}
+
+.form1 {
+    display: inline-block;
+    margin-top: 10px;
+    width: 70px;
+    margin-left: 20px;
+    height: 0px;
+}
+
+.form2 {
+    display: inline-block;
+    margin-top: 20px;
+    width: 70px;
+    margin-left: 20px;
+    height: 0px;
+}
+
+.niceCheck {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+    background: url("../img/checkbox.png");
+    overflow: hidden;
+}
+
+.niceChecked {
+    background-position: 0 -17px;
+}
+
+.niceCheck input {
+    margin-left: -100px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+.niceCheckDisabled {
+    background-image: url("../img/checkbox-disabled.png");
+}
+
+input[type=checkbox] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+label {
+    cursor: pointer;
+}
+
+.lab2:after {
+    content: " ";
+    margin-top: 9px;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url("../img/checkbox.png");
+    position: relative;
+    top: 3px;
+}
+
+input[type=checkbox]:checked+label:after {
+    background-position: 0 -17px;
+}
+
+input[type=checkbox]:disabled+label:after {
+    background: url("../img/checkbox-disabled.png");
+}
+
+
+/*navigation*/
+
+nav {
+    background-color: #258dc8;
+    z-index: 10;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav li ul {
+    background-color: #258dc8;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 200px;
+    z-index: 10;
+}
+
+nav li li {
+    position: relative;
+    margin: 0;
+    display: block;
+}
+
+nav li li ul {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    margin: 0;
+}
+
+nav a {
+    line-height: 40px;
+    padding: 0 12px;
+    margin: 0 12px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover, nav a:focus, nav a:active {
+    color: #ebf566;
+}
+
+nav li li a {
+    border-bottom: solid 1px #ebf1f6;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li li:last-child a {
+    border-bottom: none;
+}
+
+nav li.main-menu>a {
+    background-image: url('../img/arrow-down.png');
+    background-position: right 20px;
+    background-repeat: no-repeat;
+}
+
+nav li li.main-menu>a {
+    background-image: url('../img/arrow-right.png');
+    background-position: right 16px;
+    background-repeat: no-repeat;
+}
+
+ul.sub-menu {
+    display: none;
+}
+
+.sub-menuсol {
+    background-color: red;
+}
