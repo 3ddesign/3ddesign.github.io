@@ -1,0 +1,1367 @@
+body {
+    background-color: : #000;
+}
+
+.wrapper {
+    display: block;
+    margin: 0 auto;
+    width: 914px;
+}
+
+.topbox {
+    width: 400px;
+}
+
+.phone {
+    display: inline-block;
+    margin-top: 22px;
+    float: left;
+}
+
+.phonetext {
+    letter-spacing: 0.025em;
+    display: inline-block;
+    margin-left: 3px;
+    margin-top: 24px;
+    color: #5e686c;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.regbox {
+    margin-top: -24px;
+    margin-left: 307px;
+    width: 495px;
+    height: 26px;
+    border-radius: 4px / 3px;
+    background: linear-gradient(to bottom, rgba(31, 103, 135, 1) 0%, rgba(12, 51, 87, 1) 100%);
+    box-shadow: 2px 3px 3px rgba(150, 150, 150, .75);
+}
+
+.navbox {
+    margin-top: -25px;
+    margin-left: 819px;
+    width: 74px;
+    height: 19px;
+    border: 1px solid #bdc3c7;
+    border-radius: 11px;
+    background-color: #fff;
+    box-shadow: 3px 3px 6px -5px #000000;
+    opacity: 0.5;
+}
+
+.whitemen {
+    margin-top: 4px;
+    margin-left: 7px;
+    float: left;
+}
+
+.textbox1 {
+    height: 13px;
+    width: 109px;
+    margin-left: 3px;
+    margin-right: -1px;
+    padding-top: 2px;
+    padding-left: 4px;
+    color: #97a1a5;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 11px;
+    border: 1px solid #9ba0a3;
+    border-radius: 2px;
+}
+
+.subbutton {
+    margin-top: 3px;
+    margin-left: -1px;
+    background-color: transparent;
+    border: 0;
+    letter-spacing: -0.021em;
+    color: #fff;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 11px;
+}
+
+.line {
+    display: inline-block;
+    margin-bottom: -2px;
+    margin-left: -5px;
+    width: 1px;
+    height: 10px;
+    background-color: #c0ced8;
+}
+
+.regtext {
+    letter-spacing: -0.021em;
+    display: inline-block;
+    color: #fff;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.forgetpass {
+    margin-top: 2px;
+    margin-left: 17px;
+    color: #bfbfbf;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 1px #bfbfbf solid;
+}
+
+.home {
+    margin-left: 8px;
+}
+
+.map {
+    margin-left: 4px;
+}
+
+.mail {
+    margin-left: 5px;
+}
+
+.banner {
+    margin-top: 14px;
+    margin-left: -15px;
+}
+
+.menu {
+    margin-top: 3px;
+    margin-left: -8px;
+    padding-top: 1px;
+    padding-left: 134px;
+    height: 32px;
+    width: 776px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    border: 1px solid #0d1642;
+    border-radius: 4px;
+    background: url(../img/menu.png);
+    background-repeat: repeat-x;
+    background-color: #000;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, .6);
+}
+
+.oplata {
+    padding-right: 18px;
+}
+
+.dostavka {
+    padding-right: 17px;
+}
+
+.statii {
+    padding-right: 14px;
+}
+
+nav ul a {
+    display: inline-block;
+    float: left;
+    padding-left: 12px;
+    padding-right: 22px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #a2acb0;
+}
+
+nav li a:hover {
+    color: #fff;
+    border-radius: 13px;
+    background: linear-gradient(to bottom, rgba(31, 104, 135, 1) 0%, rgba(12, 51, 87, 1) 100%);
+}
+
+.kosh {
+    float: right;
+    margin-top: -27px;
+    margin-right: 217px;
+}
+
+.goodsbox1 {
+    display: inline-block;
+    float: right;
+    margin-top: -28px;
+    margin-right: 155px;
+}
+
+.goodsbox2 {
+    display: inline-block;
+    float: right;
+    margin-top: -28px;
+    margin-right: 20px;
+    width: 120px;
+}
+
+.goods {
+    color: #919b9e;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+}
+
+.goodscount {
+    color: #0d598f;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.goodscountbox1 {
+    padding-top: 1px;
+    display: inline-block;
+    float: right;
+}
+
+.goodscountbox2 {
+    padding-right: 7px;
+    padding-top: 1px;
+    display: inline-block;
+    float: right;
+}
+
+
+/*Search boxes*/
+
+.searchauto {
+    margin-top: 11px;
+    margin-left: -3px;
+    width: 412px;
+    height: 132px;
+    border: 1px solid #9b9c9d;
+    border-radius: 18px;
+    box-shadow: 3px 4px 5px rgba(104, 104, 104, .6);
+}
+
+.formtext1 {
+    letter-spacing: 0.01em;
+    margin-top: 14px;
+    font-weight: bold;
+    display: inline-block;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.formtext2 {
+    letter-spacing: -0.085em;
+    display: inline-block;
+    color: #89959a;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.formhtext1 {
+    letter-spacing: 0.025em;
+    margin-top: 4px;
+    margin-left: 20px;
+    color: #154367;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+}
+
+.formhtext2 {
+    letter-spacing: 0.025em;
+    margin-top: -13px;
+    margin-left: 126px;
+    color: #154367;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.formhtext3 {
+    letter-spacing: 0.025em;
+    margin-top: -11px;
+    margin-left: 354px;
+    color: #154367;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+}
+
+.select1 {
+    -webkit-appearance: none;
+    margin-left: 17px;
+    width: 102px;
+    height: 16px;
+    background-color: #fff;
+    border: 0;
+    background-image: url('../img/arrow.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    box-shadow: inset 2px 2px 3px 0px #979797;
+}
+
+.select2 {
+    -webkit-appearance: none;
+    margin-left: 17px;
+    width: 58px;
+    height: 16px;
+    background-color: #fff;
+    border: 0;
+    background-image: url('../img/arrow.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    box-shadow: inset 2px 2px 3px 0px #979797;
+}
+
+.block1 {
+    width: 70px;
+    display: block;
+    padding-left: 17px;
+}
+
+.formtext3 {
+    letter-spacing: 0.01em;
+    font-weight: bold;
+    display: inline-block;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.formtext4 {
+    position: absolute;
+    letter-spacing: -0.07em;
+    margin-top: -3px;
+    margin-left: 1px;
+    color: #89959a;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.formtext5 {
+    margin-top: 11px;
+    letter-spacing: -0.028em;
+    font-weight: bold;
+    display: inline-block;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.formtext6 {
+    margin-top: 15px;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    display: inline-block;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.formtext7 {
+    margin-top: 11px;
+    display: inline-block;
+    letter-spacing: -0.086em;
+    font-weight: bold;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.block2 {
+    position: absolute;
+    margin-top: -81px;
+    margin-left: 76px;
+    width: 70px;
+}
+
+.block4 {
+    position: absolute;
+    margin-top: -123px;
+    margin-left: 220px;
+    width: 70px;
+}
+
+.block5 {
+    position: absolute;
+    margin-top: -115px;
+    margin-left: 279px;
+    width: 70px;
+}
+
+.block6 {
+    margin-top: -5px;
+    margin-left: 15px;
+    width: 90px;
+}
+
+.search1 {
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 335px;
+    background-color: transparent;
+    border: 0;
+    color: #154467;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.search2 {
+    position: absolute;
+    margin-top: -2px;
+    margin-left: 118px;
+    background-color: transparent;
+    border: 0;
+    color: #154467;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.searchtires {
+    position: absolute;
+    margin-top: -134px;
+    margin-left: 425px;
+    width: 192px;
+    height: 133px;
+    border: 1px solid #9b9c9d;
+    border-radius: 18px;
+    box-shadow: 3px 4px 5px rgba(104, 104, 104, .6);
+}
+
+.searchcirc {
+    position: absolute;
+    margin-top: -135px;
+    margin-left: 629px;
+    width: 266px;
+    height: 133px;
+    border: 1px solid #9b9c9d;
+    border-radius: 18px;
+    box-shadow: 3px 4px 5px rgba(104, 104, 104, .6);
+}
+
+.formhtirestext1 {
+    letter-spacing: 0.04em;
+    margin-top: 3px;
+    margin-left: 10px;
+    color: #154367;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+}
+
+.formсtirestext1 {
+    letter-spacing: 0.065em;
+    margin-top: 3px;
+    margin-left: 9px;
+    color: #154367;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.formtirestext2 {
+    margin-top: 16px;
+    margin-left: 14px;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+    color: #000;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 10px;
+}
+
+.size1 {
+    -webkit-appearance: none;
+    position: absolute;
+    margin-top: -18px;
+    margin-left: 60px;
+    width: 52px;
+    height: 16px;
+    background-color: #fff;
+    border: 0;
+    background-image: url('../img/arrow.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    box-shadow: inset 2px 2px 3px 0px #979797;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 11px;
+    padding-left: 2px;
+    padding-top: 1px;
+}
+
+.formtirestext3 {
+    margin-top: -15px;
+    margin-left: 116px;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.size2 {
+    -webkit-appearance: none;
+    position: absolute;
+    margin-top: -16px;
+    margin-left: 126px;
+    width: 52px;
+    height: 16px;
+    background-color: #fff;
+    border: 0;
+    background-image: url('../img/arrow.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    box-shadow: inset 2px 2px 3px 0px #979797;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 11px;
+    padding-left: 2px;
+    padding-top: 1px;
+}
+
+.radius {
+    -webkit-appearance: none;
+    position: absolute;
+    margin-top: -16px;
+    margin-left: 60px;
+    width: 46px;
+    height: 16px;
+    background-color: #fff;
+    border: 0;
+    background-image: url('../img/arrow.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    box-shadow: inset 2px 2px 3px 0px #979797;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    padding-left: 2px;
+    padding-top: 1px;
+}
+
+.formtirestext4 {
+    margin-top: 12px;
+    margin-left: 46px;
+    font-weight: 600;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+
+.formtirestext5 {
+    margin-top: 7px;
+    margin-left: 14px;
+    color: #000;
+    font-weight: 700;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 10px;
+}
+
+.checksummerbox {
+    margin-top: -13px;
+    margin-left: 54px;
+}
+
+.checkwinterbox {
+    margin-top: -1px;
+    margin-left: 54px;
+}
+
+.checkallbox {
+    margin-top: -1px;
+    margin-left: 54px;
+}
+
+.checkinp {
+    display: block;
+    letter-spacing: -0.03em;
+    margin-top: -16px;
+    margin-left: 18px;
+    font-weight: 700;
+    color: #000;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 12px;
+}
+
+.formcirctext1 {
+    letter-spacing: 0.03em;
+    margin-top: 14px;
+    font-weight: 700;
+    display: inline-block;
+    color: #000;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 10px;
+}
+
+.formcirctext2 {
+    letter-spacing: 0.03em;
+    display: inline-block;
+    color: #89959a;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.formcirspan {
+    color: #000;
+}
+
+.formcirctext3 {
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    display: inline-block;
+    color: #000;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 10px;
+}
+
+.formcirctext4 {
+    letter-spacing: 0.002em;
+    margin-top: -2px;
+    color: #89959a;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 10px;
+    line-height: 9px;
+}
+
+.formcirctext5 {
+    position: absolute;
+    margin-top: 3px;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    display: inline-block;
+    color: #000;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 10px;
+}
+
+.formcirctext6 {
+    letter-spacing: 0.002em;
+    margin-top: 13px;
+    color: #89959a;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 10px;
+}
+
+.diametr {
+    -webkit-appearance: none;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 92px;
+    width: 56px;
+    height: 16px;
+    background-color: #fff;
+    border: 0;
+    background-image: url('../img/arrow.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    box-shadow: inset 2px 2px 3px 0px #979797;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 11px;
+    padding-left: 2px;
+    padding-top: 1px;
+}
+
+.countkrep {
+    -webkit-appearance: none;
+    position: absolute;
+    margin-top: -58px;
+    margin-left: 91px;
+    width: 50px;
+    height: 16px;
+    background-color: #fff;
+    border: 0;
+    background-image: url('../img/arrow.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    box-shadow: inset 2px 2px 3px 0px #979797;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-top: 1px;
+}
+
+.diametrkrep {
+    -webkit-appearance: none;
+    position: absolute;
+    margin-top: -27px;
+    margin-left: 90px;
+    width: 58px;
+    height: 16px;
+    background-color: #fff;
+    border: 0;
+    background-image: url('../img/arrow.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    box-shadow: inset 2px 2px 3px 0px #979797;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 11px;
+    padding-left: 3px;
+    padding-top: 1px;
+}
+
+.vertline {
+    position: absolute;
+    margin-top: -106px;
+    margin-left: 160px;
+    width: 1px;
+    height: 105px;
+    background-color: #bdc6ca;
+}
+
+.formcirctext7 {
+    position: absolute;
+    margin-top: -104px;
+    margin-left: 185px;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    display: inline-block;
+    color: #000;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 9px;
+}
+
+.formcirctext8 {
+    letter-spacing: 0.002em;
+    margin-top: -95px;
+    margin-left: 185px;
+    color: #89959a;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 9px;
+    line-height: 8px;
+}
+
+.dco {
+    -webkit-appearance: none;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 187px;
+    width: 58px;
+    height: 16px;
+    background-color: #fff;
+    border: 0;
+    background-image: url('../img/arrow.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    box-shadow: inset 2px 2px 3px 0px #979797;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 11px;
+    padding-left: 3px;
+    padding-top: 1px;
+}
+
+.formcirctext9 {
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 185px;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    display: inline-block;
+    color: #000;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 9px;
+}
+
+.formcirctext10 {
+    letter-spacing: 0.002em;
+    margin-top: 37px;
+    margin-left: 185px;
+    color: #89959a;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 9px;
+    line-height: 8px;
+}
+
+.search3 {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 192px;
+    background-color: transparent;
+    border: 0;
+    color: #154467;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/*Content part*/
+
+.content {
+    margin-left: -8px;
+}
+
+.aleft {
+    width: 180px;
+    float: left;
+    margin-top: 19px;
+}
+
+main {
+    float: left;
+    width: 527px;
+    height: 628px;
+    margin-left: 11px;
+    margin-right: 12px;
+    margin-top: 15px;
+    background: linear-gradient(to top, rgba(35, 74, 92, 0.49) 0%, rgba(200, 206, 208, 0.49) 100%);
+    border-radius: 4px;
+}
+
+.aright {
+    margin-left: -2px;
+    width: 180px;
+    float: left;
+    margin-top: 17px
+}
+
+
+/*Left aside*/
+
+.list_img {
+    margin-top: 1px;
+    margin-left: 2px;
+}
+
+.catalog {
+    width: 180px;
+    height: 24px;
+    line-height: 26px;
+    border: 1px solid #79878d;
+    border-radius: 12px;
+    box-shadow: 0 3px 3px 0 rgba(150, 150, 150, 0.75);
+}
+
+h2 {
+    letter-spacing: -0.009em;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 13px;
+    color: #114165;
+}
+
+.catalog div {
+    margin-top: -30px;
+    margin-left: 27px;
+}
+
+
+/*Tires Сatalog*/
+
+.tirescatalog {
+    width: 148px;
+    height: 26px;
+    margin-top: 14px;
+    margin-left: 2px;
+    color: #114165;
+    border: 1px solid #79878d;
+    border-radius: 14px;
+}
+
+.tirescatalog div {
+    letter-spacing: 0.05em;
+    margin-top: -18px;
+    margin-left: 28px;
+}
+
+.tirescatalog h2 {
+    letter-spacing: 0.004em;
+    line-height: 11px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.round_img {
+    margin-top: 1px;
+    margin-left: 4px;
+}
+
+.tiresname {
+    margin-top: 6px;
+    padding-left: 49px;
+}
+
+.tiresname li {
+    list-style-image: url(../img/dot1.png);
+    line-height: 26px;
+    text-indent: -0.23em;
+}
+
+.tiresname li a {
+    display: block;
+    letter-spacing: 0.03em;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    width: 125px;
+    font-size: 12px;
+    color: #465961;
+    text-decoration: none;
+}
+
+.tiresname li:hover {
+    list-style-image: url("../img/dot2.png");
+}
+
+.tiresname li a:hover {
+    font-weight: 600;
+    font-size: 14px;
+    color: #0c3256;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+/*Disks Сatalog*/
+
+.discscatalog {
+    width: 148px;
+    height: 26px;
+    margin-top: 100px;
+    margin-left: 2px;
+    color: #114165;
+    border: 1px solid #79878d;
+    border-radius: 14px;
+}
+
+.discscatalog div {
+    letter-spacing: 0.05em;
+    margin-top: -18px;
+    margin-left: 28px;
+}
+
+.discsname {
+    margin-top: 6px;
+    padding-left: 49px;
+}
+
+.discsname li {
+    list-style-image: url(../img/dot1.png);
+    line-height: 26px;
+    text-indent: -0.23em;
+}
+
+.discscatalog h2 {
+    letter-spacing: 0.004em;
+    line-height: 10px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.discsname li a {
+    display: block;
+    letter-spacing: 0.03em;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    width: 125px;
+    font-size: 12px;
+    color: #465961;
+    text-decoration: none;
+}
+
+.discsname li:hover {
+    list-style-image: url("../img/dot2.png");
+}
+
+.discsname li a:hover {
+    font-weight: 600;
+    font-size: 14px;
+    color: #0c3256;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+/*Bolts Сatalog*/
+
+.botscatalog {
+    width: 148px;
+    height: 26px;
+    margin-top: 100px;
+    margin-left: 2px;
+    color: #114165;
+    border: 1px solid #79878d;
+    border-radius: 12px;
+}
+
+.botscatalog div {
+    letter-spacing: 0.05em;
+    margin-top: -18px;
+    margin-left: 28px;
+}
+
+.botsname {
+    margin-top: 6px;
+    padding-left: 49px;
+}
+
+.botscatalog h2 {
+    letter-spacing: 0.004em;
+    line-height: 10px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.botsname li {
+    list-style-image: url(../img/dot1.png);
+    line-height: 26px;
+    text-indent: -0.23em;
+}
+
+.botsname li a {
+    display: block;
+    letter-spacing: 0.03em;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    width: 125px;
+    font-size: 12px;
+    color: #465961;
+    text-decoration: none;
+}
+
+.botsname li:hover {
+    list-style-image: url("../img/dot2.png");
+}
+
+.botsname li a:hover {
+    font-weight: 600;
+    font-size: 14px;
+    color: #0c3256;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+/*Main part*/
+
+.goodyear {
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 25px;
+    width: 143px;
+    height: 190px;
+}
+
+.goodyear img {
+    margin-left: -3px;
+}
+
+.goodyear h3 {
+    letter-spacing: -0.002em;
+    margin-left: 32px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 15px;
+    color: #1f6987;
+    display: block;
+    font-weight: bold;
+}
+
+.goodyeartire {
+    letter-spacing: -0.025em;
+    margin-left: 12px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    color: #1f2528;
+    font-weight: 600;
+}
+
+.gprice {
+    margin-top: 1px;
+    margin-left: 37px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #114165;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.price2 {
+    letter-spacing: 0.008em;
+    font-size: 13px;
+}
+
+.nokian {
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 25px;
+    width: 143px;
+    height: 190px;
+}
+
+.nokian img {
+    margin-left: -7px;
+}
+
+.nokian h3 {
+    letter-spacing: -0.002em;
+    margin-left: 39px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 15px;
+    color: #1f6987;
+    display: block;
+    font-weight: bold;
+}
+
+.nokiantire {
+    letter-spacing: -0.025em;
+    margin-left: 18px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    color: #1f2528;
+    font-weight: 600;
+}
+
+.nprice {
+    margin-top: 1px;
+    margin-left: 28px;
+    letter-spacing: 0.03em;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #114165;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.hankook {
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 25px;
+    width: 143px;
+    height: 190px;
+}
+
+.hankook img {
+    margin-left: -11px;
+}
+
+.hankook h3 {
+    letter-spacing: -0.002em;
+    margin-left: 28px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 15px;
+    color: #1f6987;
+    display: block;
+    font-weight: bold;
+}
+
+.hankooktire {
+    letter-spacing: -0.025em;
+    margin-left: 1px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    color: #1f2528;
+    font-weight: 600;
+}
+
+.hprice {
+    margin-top: 1px;
+    margin-left: 24px;
+    letter-spacing: 0.03em;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #114165;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.row2 {
+    margin-top: -5px;
+}
+
+.row3 {
+    margin-top: -1px;
+}
+
+
+/*Left aside*/
+
+.brands_img {
+    margin-left: 2px;
+}
+
+h4 {
+    margin-top: -1px;
+    margin-left: 2px;
+    line-height: 26px;
+    color: #0c3255;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+}
+
+.tirescatalog2 {
+    width: 135px;
+    height: 26px;
+    margin-top: 14px;
+    margin-left: 13px;
+    color: #114165;
+    border: 1px solid #79878d;
+    border-radius: 12px;
+}
+
+.tirescatalog2div {
+    margin-top: -18px;
+    margin-left: 31px;
+}
+
+.tirescatalog2 h2 {
+    letter-spacing: 0.014em;
+    line-height: 11px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.tirescatalog2 img {
+    margin-top: 1px;
+    margin-left: 5px;
+}
+
+.tirescatalog2 label {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    color: #465961;
+    margin-left: 4px;
+}
+
+.box1 {
+    margin-top: 12px;
+    margin-left: 6px;
+}
+
+.box2 {
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.box3 {
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.box4 {
+    margin-top: 32px;
+    margin-left: 6px;
+}
+
+.box5 {
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.box6 {
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.diskscatalog2 {
+    width: 135px;
+    height: 26px;
+    margin-top: 14px;
+    margin-left: -1px;
+    color: #114165;
+    border: 1px solid #79878d;
+    border-radius: 12px;
+}
+
+.diskscatalog2div {
+    margin-top: -27px;
+}
+
+.diskscatalog2 h2 {
+    margin-top: -19px;
+    margin-left: 30px;
+    letter-spacing: 0.014em;
+    line-height: 11px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.diskscatalog2 img {
+    margin-top: 1px;
+    margin-left: 2px;
+}
+
+.diskscatalog2 label {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    color: #465961;
+    margin-left: 4px;
+}
+
+.subbrands {
+    width: 80px;
+    height: 26px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-right: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 11.5px;
+    color: #e5e9ea;
+    border-radius: 11px;
+    border: 1px solid #a7abae;
+    outline: none;
+    cursor: pointer;
+    background: -webkit-linear-gradient(top, rgb(32, 105, 136) 0%, rgb(17, 65, 101) 59%, rgb(15, 58, 94) 85%, rgb(12, 50, 86) 100%);
+    box-shadow: 2px 3px 5px 0 rgba(188, 188, 188, 1);
+}
+
+.logobrands img {
+    float: left;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.logobrands {
+    width: 750px;
+    display: block;
+    margin-top: 35px;
+    padding-left: 112px;
+    float: left;
+}
+
+footer {
+    margin-top: 14px;
+    margin-left: 1px;
+    float: left;
+    width: 908px;
+    height: 100px;
+    background: #213a4d;
+    border: 1px solid #242a3c;
+}
+
+.footer {
+    padding-left: 8px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+footer a  {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #bec6c9;
+}
+
+footer a:hover {
+    color: #52abcb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footernav1 {
+    padding-left: 14px;
+    letter-spacing: 0.025em;
+}
+
+.line4 {
+    color: #bec6c9;
+    font-family: Arial, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 11px;
+}
+
+.copy {
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 377px;
+    color: #7f4640;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}

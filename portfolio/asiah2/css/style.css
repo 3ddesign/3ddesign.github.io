@@ -1,0 +1,213 @@
+body {
+    background: url(../img/background.jpg);
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    height: 988px;
+    background-color: white;
+    box-shadow: 0px 5px 11px -1px #000000;
+}
+
+
+/*header*/
+
+header {
+    height: 175px;
+    background: url(../img/logo.png);
+    background-repeat: no-repeat;
+}
+
+.tagline {
+    display: block;
+    padding-top: 109px;
+    padding-left: 99px;
+    color: #1289a7;
+    font-family: "Tahoma";
+    font-size: 12px;
+}
+
+.contacts {
+    float: right;
+    margin-top: -113px;
+    padding-right: 31px;
+    opacity: .8;
+    color: #1289a7;
+    font-family: "Tahoma";
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #1289a7;
+}
+
+.contacts-top {
+    line-height: 22px;
+    font-size: 13px;
+}
+
+.countries {
+    float: right;
+    margin-top: -10px;
+    margin-right: 29px;
+}
+
+.countries div{
+    float: left;
+    width: 56px;
+    text-align: center;
+}
+
+.countries div p{
+    color: #1289a7;
+    font-family: "Tahoma";
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.mainphoto {
+    margin-top: 54px;
+}
+
+
+/*homizontal menu*/
+
+.menubox {
+    margin-top: 237px;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    list-style: none;
+    background: url(../img/panel.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.menu>li {
+    float: left;
+    position: relative;
+    padding-left: 44px;
+}
+
+ul.menu>li>a {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Tahoma";
+    font-size: 14px;
+
+}
+
+ul.submenu {
+    top: 30px;
+    background-color: #303030;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .9);
+}
+
+ul.submenu>li {
+    display: block;
+}
+
+ul.submenu>li>a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Tahoma";
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #303030;
+}
+
+.sub1 {
+    width: 150px;
+}
+
+.sub2 {
+    width: 100px;
+}
+
+.sub3 {
+    width: 140px;
+}
+
+ul.submenu>li>a:hover {
+    text-decoration: none;
+}
+
+ul.menu>li:hover>ul.submenu {
+    display: block;
+}
+
+
+/*content*/
+
+.fon {
+    width: 1000px;
+    height: 542px;
+    background: url(../img/background2.png);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.informaton {
+    text-align: center;
+    width: 210px;
+    float: left;
+}
+
+.maincontent {
+    width: 580px;
+    float: left;
+}
+
+.news {
+    text-align: center;
+    width: 210px;
+    float: left;
+}
+
+.top-text {
+    color: #414b43;
+    font-family: "Tahoma";
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.text-content {
+    color: #414b43;
+    font-family: "Tahoma";
+    font-size: 14px;
+    line-height: 23px;
+}
+
+
+/*footer*/
+
+.copyright {
+    margin: 0 auto;
+    margin-top: 12px;
+    height: 25px;
+    width: 1000px;
+    text-align: center;
+    opacity: .8;
+    color: #fff;
+    font-family: "Tahoma";
+    font-size: 12px;
+}
