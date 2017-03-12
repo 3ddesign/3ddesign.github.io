@@ -3,7 +3,7 @@ var button = document.getElementById("search");
 var container = document.getElementById("photogrid");
 
 //random value (may add other words in array)
-var arr = ["wine"];
+var arr = ["wine", "red"];
 var value = (arr[Math.round(Math.random() * (arr.length - 1))]);
 
 //request to pixabay
