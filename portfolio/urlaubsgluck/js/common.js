@@ -1,56 +1,55 @@
 const button = document.getElementById("search");
 const container = document.getElementById("photogrid");
+const words = ["friends", "wine", "red", "travel"];
 
-
-//random value (may add other words in array)
-const arr = ["friends", "wine", "red", "travel"];
-let value = (arr[Math.round(Math.random() * (arr.length - 1))]);
-
-//request to pixabay
-getUrls = (val) => {
-    let URL = "https://pixabay.com/api/?key=4341489-c7135f07e924eb271481ce96f&q=" + encodeURIComponent(val);
-    let XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
-    let xhr = new XHR();
-    xhr.open('GET', URL, true);
-    xhr.onload = function() {
-        let pics = JSON.parse(this.responseText);
-
-        container.innerHTML = "";
-        for (let i = 0; i < 7; i++) {
-            // a = 'cell' + i;
-            let figure = document.createElement('figure');
-            figure.classList.add("grid-item");
-            figure.innerHTML = `<img src="${pics.hits[i].webformatURL}" alt="image"><figcaption> ${pics.hits[i].tags.split(',')[0]}</figcaption>`;
-            container.appendChild(figure);
-        }
-        imagesLoaded(container, () => {
-            let msnry = new Masonry(container, {
-                columnWidth: "img",
-                gutter: 10
-            });
-        });
-    };
-    xhr.onerror = () => {
-        console.log(`Ошибка ${this.status}`);
-    };
-    xhr.send();
-};
-
-//handler for search button
-getUrls(value);
 button.onclick = (e) => {
-    value = document.getElementById("searchfield").value;
+    searchWord = document.getElementById("searchfield").value;
     document.getElementById("searchfield").value = "";
-    getUrls(value);
+    insertImages(searchWord);
     e.preventDefault();
 };
 
-//Masonry init with imagesLoaded ()
+//Request to pixabay and insert result
+function insertImages(val) {
+    let URL = "https://pixabay.com/api/?key=4341489-c7135f07e924eb271481ce96f&q=" + encodeURIComponent(val);
+    let request = new Request(URL);
 
-imagesLoaded(container, () => {
+    fetch(request).then(function(response) {
+        return response.json().then(function(json) {
+          
+            if (json.total === 0) {
+                container.innerHTML = "";
+                let p = document.createElement("p");
+                p.classList.add("warning");
+                p.innerHTML = "No images for your request...";
+                container.appendChild(p);
+                msnryInitialize();
+            } else {
 
-    let msnry = new Masonry(container, {
-        columnWidth: "img",
-        gutter: 10
+                container.innerHTML = "";
+                for (let i = 0; i < 7; i++) {
+                    let figure = document.createElement("figure");
+                    figure.classList.add("grid-item");
+                    figure.innerHTML = `<img src="${json.hits[i].webformatURL}" alt="image"><figcaption> ${json.hits[i].tags.split(",")[0]}</figcaption>`;
+                    container.appendChild(figure);
+                }
+                msnryInitialize();
+            }
+        });
     });
-});
+
+}
+
+//Masonry initialize
+function msnryInitialize() {
+    imagesLoaded(container, () => {
+        let msnry = new Masonry(container, {
+            columnWidth: "img",
+            gutter: 10
+        });
+    });
+}
+
+//First request and insert images
+let randomWord = (words[Math.round(Math.random() * (words.length - 1))]);
+insertImages(randomWord);
