@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Queensland Treasury Corporation - Profile Editing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+
+<body>
+
+
+
+          <div class="head img1">
+            <span class="left-i js-btn-prev"><a href="#"><img src="./img/angle-pointing-to-left.svg" alt="close"></a></span>
+            <span class="right-i"><a href="#"><img src="./img/close.svg" alt="close"></a></span>
+          </div>
+          <div class="inp-wrap">
+            <select name="country" required>
+              <option value="">COUNTRY*</option>
+              <option value="Japan">Japan</option>
+              <option value="Hong Kong">Hong Kong</option>
+              <option value="China">China</option>
+              <option value="Singapore">Singapore</option>
+              <option value="United States">United States</option>
+              <option value="United Kingdom">United Kingdom</option>
+              <option value="European Union">European Union</option>
+              <option value="Other">Other</option>
+
+              <input style="display: none;" placeholder="Other" name="other-country" id="country-input" type="text">
+
+            </select>
+
+            <input type="text" name="organisation-type" value="" placeholder="organisation name">
+
+            <select name="organisation-type" id="organisation-type" required>
+              <option value="">ORGANISATION TYPE*</option>
+              <option value="Investor">Investor</option>
+              <option value="QTC intermediary/bank dealer">QTC intermediary/bank dealer</option>
+            </select>
+
+            <select name="investor-type" id="investor-type-select">
+              <option value="">Investor Type</option>
+              <option value="Fund/Asset manager">Fund/Asset manager</option>
+              <option value="Bank Balance Sheet">Bank Balance Sheet</option>
+              <option value="Central Bank">Central Bank</option>
+              <option value="Hedge Fund">Hedge Fund</option>
+              <option value="Trading Book">Trading Book</option>
+              <option value="Insurance">Insurance</option>
+              <option value="Official/Government Institution">Official/Government Institution</option>
+              <option value="Other (please specify)">Other (please specify)</option>
+            </select>
+
+            <input name="investor-type" style="display: none;" placeholder="Investor Type" name="investor-type" id="investor-type-input" type="text">
+
+            <input type="text" name="role" value="" placeholder="role">
+          </div>
+
+          <p class="inform"></p>
+          <button type="button" class="btn js-btn-next">NEXT</button>
+
+<script src="./js/libs.js"></script>
+<script src="./js/nice-select.js"></script>
+<script src="./js/common.js"></script>
+<link rel="stylesheet" href="css/main.min.css">
+</body>
+
+</html>
