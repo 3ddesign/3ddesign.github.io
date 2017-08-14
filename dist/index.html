@@ -2,142 +2,32 @@
 <html lang="en">
 
 <head>
-
-  <meta charset="UTF-8">
-  <title>Queensland Treasury Corporation</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Sales Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 </head>
 
 <body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <ul class="top-mnu">
+            <li><a href="#" >Upcoming</a></li>
+            <li><a href="#" class="light">Historical</a></li>
+          </ul>
 
-<form class="js-onboarding-form">
+          <a class="top-btn" href="#"><img src="./img/search.svg" alt="search-icon">Search</a>
 
-  <div class="slide-wrapp">
-
-    <div>
-      <div class="page">
-
-        <div class="logo">
-          <img src="img/logo.png" alt="logo">
         </div>
-        <div class="text-content">
-          <p>Welcome to the Queensland Treasury Corporation (QTC) investor app. Here you can access regularly updated information in one location, including market announcements, presentations and publications.</p>
-          <p>Please tell us a bit about yourself so we can create the best app experience.</p>
-        </div>
-
-        <button type="button" class="btn js-btn-next">NEXT</button>
-
       </div>
     </div>
+  </header>
 
-    <div>
-      <div class="page">
-
-
-        <div class="head img1">
-          <span class="left-i js-btn-prev"><a href="#"><img src="./img/angle-pointing-to-left.svg" alt="close"></a></span>
-          <span class="right-i"><a href="#"><img src="./img/close.svg" alt="close"></a></span>
-        </div>
-        <div class="inp-wrap">
-          <select name="country" required>
-            <option value="">COUNTRY*</option>
-            <option value="Japan">Japan</option>
-            <option value="Hong Kong">Hong Kong</option>
-            <option value="China">China</option>
-            <option value="Singapore">Singapore</option>
-            <option value="United States">United States</option>
-            <option value="United Kingdom">United Kingdom</option>
-            <option value="European Union">European Union</option>
-            <option value="Other">Other</option>
-
-            <input style="display: none;" placeholder="Other" name="other-country" id="country-input" type="text">
-
-          </select>
-
-          <input type="text" name="organisation-type" value="" placeholder="organisation name">
-
-          <select name="organisation-type" id="organisation-type" required>
-            <option value="">ORGANISATION TYPE*</option>
-            <option value="Investor">Investor</option>
-            <option value="QTC intermediary/bank dealer">QTC intermediary/bank dealer</option>
-          </select>
-
-          <select name="investor-type" id="investor-type-select">
-            <option value="">Investor Type</option>
-            <option value="Fund/Asset manager">Fund/Asset manager</option>
-            <option value="Bank Balance Sheet">Bank Balance Sheet</option>
-            <option value="Central Bank">Central Bank</option>
-            <option value="Hedge Fund">Hedge Fund</option>
-            <option value="Trading Book">Trading Book</option>
-            <option value="Insurance">Insurance</option>
-            <option value="Official/Government Institution">Official/Government Institution</option>
-            <option value="Other (please specify)">Other (please specify)</option>
-          </select>
-
-          <input name="investor-type" style="display: none;" placeholder="Investor Type" name="investor-type" id="investor-type-input" type="text">
-
-          <input type="text" name="role" value="" placeholder="role">
-        </div>
-
-        <p class="inform"></p>
-        <button type="button" class="btn js-btn-next">NEXT</button>
-
-      </div>
-    </div>
-
-    <div>
-      <div class="page">
-
-
-        <div class="head img3">
-          <span class="left-i js-btn-prev"><a href="#"><img src="./img/angle-pointing-to-left.svg" alt="close"></a></span>
-          <span class="right-i"><a href="#"><img src="./img/close.svg" alt="close"></a></span>
-        </div>
-        <div class="inp-wrap">
-          <input type="text" name="first-name" value="" placeholder="FIRST NAME">
-          <input type="text" name="last-name" value="" placeholder="LAST NAME">
-          <input type="email" name="email" value="" placeholder="EMAIL*" required>
-          <span class="subinfo">This will also be your username</span>
-          <input type="password" class="mt" name="password" value="" placeholder="PASSWORD*" required>
-          <input type="password" name="confirm-password" value="" placeholder="CONFIRM PASSWORD*" required>
-        </div>
-
-
-        <p class="inform"></p>
-        <button type="button" class="btn js-btn-next">NEXT</button>
-
-
-      </div>
-    </div>
-
-    <div>
-      <div class="page">
-
-
-        <div class="head img2">
-          <span class="left-i js-btn-prev"><a href="#"><img src="./img/angle-pointing-to-left.svg" alt="close"></a></span>
-          <span class="right-i"><a href="#"><img src="./img/close.svg" alt="close"></a></span>
-        </div>
-        <div class="text-content">
-          <h4>Welcome to the Invest in QTC app</h4>
-          <p>This special app is designed to provide institutional fixed income investors with regular, updated content from QTC in one location.</p> <p> The simple library interface enables you to download the latest QTC news including market announcements, presentations
-          and publications direct to your device.</p>
-        </div>
-
-        <button type="submit" class="btn">NEXT</button>
-
-
-      </div>
-    </div>
-  </div>
-
-</form>
-
-<script src="./js/libs.js"></script>
-<script src="./js/nice-select.js"></script>
-<script src="./js/common.js"></script>
-<link rel="stylesheet" href="css/main.min.css">
+  <!--<script src="js/libs.js"></script>-->
+  <script src="js/common.js"></script>
+  <link rel="stylesheet" href="css/main.css">
 </body>
 
 </html>
