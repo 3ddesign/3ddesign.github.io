@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Sales Tracker</title>
+  <title>Search - Sales Tracker</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -13,13 +13,21 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 flex">
-        <ul class="top-mnu">
-          <li><a href="#">Upcoming</a></li>
-          <li><a href="#" class="light">Historical</a></li>
-        </ul>
-        <a class="top-btn" href="search.html"><img src="./img/search.svg" alt="search-icon">Search</a>
+        <a class="top-btn index-btn" href="index.html">Home</a>
+        <a class="top-btn pressed" href="#"><img src="./img/search.svg" alt="search-icon">Search</a>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-xs-12 center">
+        <h2>Search for Upcoming & Historical Events</h2>
+        <form class="seach-form">
+          <input type="text">
+          <input type="date" name="date">
+        </form>
+      </div>
+    </div>
+
   </div>
 </header>
 <section>
@@ -239,19 +247,19 @@
       </div>
 
       <div class="col-md-5 col-xs-12 counts center">
-<div class="">
-        <div class="col-md-6 col-xs-3 count">
-          <p class="count-name">Sold Today</p>
-          <p>$ 3 120</p>
-          <span class="total-tickets">52 tickets</span>
-        </div>
+        <div class="">
+          <div class="col-md-6 col-xs-3 count">
+            <p class="count-name">Sold Today</p>
+            <p>$ 3 120</p>
+            <span class="total-tickets">52 tickets</span>
+          </div>
 
-        <div class="col-md-6 col-xs-3 count">
-          <p class="count-name">Sold Month</p>
-          <p>$ 3 120</p>
-          <span class="total-tickets">52 tickets</span>
+          <div class="col-md-6 col-xs-3 count">
+            <p class="count-name">Sold Month</p>
+            <p>$ 3 120</p>
+            <span class="total-tickets">52 tickets</span>
+          </div>
         </div>
-</div>
         <div class="col-md-6 col-xs-3 count">
           <p class="count-name">% Increase</p>
           <p>+ 4%</p>

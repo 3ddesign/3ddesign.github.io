@@ -152,7 +152,31 @@ tr.visible-print{display:table-row !important}th.visible-print,td.visible-print{
 }.visible-print-inline{display:none !important}@media print{.visible-print-inline{display:inline !important}
 }.visible-print-inline-block{display:none !important}@media print{.visible-print-inline-block{display:inline-block !important}
 }@media print{.hidden-print{display:none !important}}body{font-size:14px;font-weight:600;min-width:320px;position:relative;line-height:1.6;font-family:proxima_nova,sans-serif;overflow-x:hidden;opacity:1;background-color:#fcfcfc}
-.col-xs-12{display:flex}.top-mnu{margin:46px 0;padding:0}.top-mnu li{display:inline-block;list-style-type:none;margin-right:15px}
+h2{color:#ea6d10;font-size:22px;font-weight:600}.flex{display:flex}.center{text-align:center}
+.top-mnu{margin:46px 0;padding:0}.top-mnu li{display:inline-block;list-style-type:none;margin-right:15px}
 .top-mnu li a{font-size:22px;font-weight:600;color:#4c5968}.top-mnu li a:hover,.top-mnu li a:link{text-decoration:none}
 .top-mnu .light{color:#e3e7ec}.top-btn{margin-top:42px;margin-left:auto;width:140px;height:40px;padding:8px 30px;border-radius:30px;background-image:linear-gradient(103deg,#f6a624,#ea6d10);color:#fff;font-size:15px;display:inline-block}
 .top-btn img{margin-top:-8px;margin-right:10px}.top-btn:hover,.top-btn:focus{color:#fff;text-decoration:none;background-image:linear-gradient(103deg,#de8d09,#ba570d)}
+.sortable{text-align:left;width:100%;min-height:500px;border-radius:6px;background-color:#fff;overflow:scroll;color:#4c5968}
+.sortable .sort-img{height:14px;width:8px;float:right;margin-top:-35px;margin-right:6px;cursor:pointer;background-image:url("../img/sort.svg")}
+.sortable .sort-img:hover{background-image:url("../img/sort-active.svg")}.sortable thead th{min-width:75px;font-size:13px;font-weight:600;border-right:solid 1px #e3e7ec;border-bottom:solid 1px #e3e7ec;padding-left:20px}
+.sortable thead th:last-child{border-right:0}.sortable tbody tr td{padding-left:20px}
+.sortable tbody tr:hover{color:#ea6d10;cursor:pointer}.date-block{margin-top:63px;margin-bottom:27px;color:#4c5968;font-size:28px}
+.date-block svg{cursor:pointer;margin-left:28px;margin-right:5px}.date-block span{cursor:pointer;color:#9098a1;font-size:14px}
+.chart{margin:0 auto;width:540px;height:306px;border:1px dashed grey;margin-bottom:80px}
+.counts{white-space:nowrap;margin-top:119px}.count{margin:3%;background-color:#fff;width:160px;height:120px;padding-left:20px;padding-top:20px}
+.count .count-name{font-size:14px;font-weight:600;color:#4c5968}.count span{font-size:14px;font-weight:600;color:#4c5968}
+.count p{font-size:32px;font-weight:300;color:#ea6d10;line-height:1px;margin-bottom:15px}
+.count .total-tickets{font-size:13px;color:#cdd5dd}.index-btn{margin-right:-70%;padding:8px 49px}
+.pressed{background-image:none;background-color:#cdd5dd;color:#fff}.pressed:hover,.pressed:link{background-image:none;background-color:#cdd5dd;color:#fff}
+.seach-form{margin-bottom:54px}.seach-form input[type=text]{width:320px;height:42px;padding-left:20px;font-size:15px;border-radius:40px;background-color:#fff;border:solid 1px #cdd5dd;outline:0;color:#4c5968}
+.seach-form input[type=text]:hover,.seach-form input[type=text]:active{border:solid 1px #ea6d10}
+.seach-form input[type=date]{font-size:15px;width:180px;height:42px;border-radius:40px;background-color:#fff;border:solid 1px #cdd5dd;outline:0;color:#4c5968}
+.seach-form input[type=date]:hover,.seach-form input[type=date]:active{border:solid 1px #ea6d10}
+@media only screen and (max-width:992px){.chart{width:100%;margin-bottom:-120px}.count{width:120px;height:100px}
+.index-btn{margin-right:-50%}}@media only screen and (max-width:768px){.count{margin:6%;width:180px;height:160px;text-align:-webkit-right}
+}@media only screen and (max-width:600px){.count{margin:3%}.index-btn{margin-right:-20%}
+}@media only screen and (max-width:500px){.count{margin:4%;width:160px;height:140px}
+.index-btn{margin-right:2%}.wrap{display:block}.wrap svg{margin-left:0}}@media only screen and (max-width:444px){.top-mnu li a{font-size:16px}
+.count{margin:5%;width:120px;height:100px}.wrap{display:block}.wrap svg{margin-left:0}
+}
