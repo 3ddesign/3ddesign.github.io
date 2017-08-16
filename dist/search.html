@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <title>Search - Sales Tracker</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <!--delete:-->
+  <!--<link rel="stylesheet" href="./libs/jquery-ui.css">-->
 </head>
 
 <body>
@@ -23,11 +25,14 @@
         <h2>Search for Upcoming & Historical Events</h2>
         <form class="seach-form">
           <input type="text">
-          <input type="date" name="date">
+
+          <div id="jrange" class="dates">
+            <input  class="dates-inp"/>
+            <div></div>
+          </div>
         </form>
       </div>
     </div>
-
   </div>
 </header>
 <section>
@@ -277,7 +282,7 @@
   </div>
 </section>
 
-<!--<script src="js/libs.js"></script>-->
+<script src="js/libs.js"></script>
 <script src="js/common.js"></script>
 </body>
 
