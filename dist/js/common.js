@@ -77,4 +77,6 @@ $(function () {
         $('#jrange div').hide();
         event.stopPropagation();
     });
+
+    $("#myTable").tablesorter();
 });
