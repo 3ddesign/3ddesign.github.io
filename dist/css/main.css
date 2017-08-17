@@ -382,8 +382,13 @@ h2{color:#ea6d10;font-size:22px;font-weight:600}.flex{display:flex}.center{text-
 .sort-image{width:8px;height:14px;margin-left:60px;margin-top:-20px;position:absolute;background-image:url(../img/sort.svg)}
 .sort-image:hover{background-image:url(../img/sort-active.svg)}.date-block{margin-top:63px;margin-bottom:27px;color:#4c5968;font-size:28px}
 .date-block svg{cursor:pointer;margin-left:28px;margin-right:5px}.date-block span{cursor:pointer;color:#9098a1;font-size:14px}
-.chart{margin:0 auto;width:540px;height:306px;border:1px dashed grey;margin-bottom:80px}
-.counts{white-space:nowrap;margin-top:119px}.count{margin:3%;background-color:#fff;width:160px;height:120px;padding-left:20px;padding-top:20px}
+.chart{width:540px;height:306px;margin-bottom:80px}.chart a{margin:0 15px;font-size:14px;color:#cdd5dd}
+.chart a:hover{font-size:14px;color:#ea6d10;text-decoration:none}.chart .circle-btn{margin-right:12px;float:right;width:22px;height:22px;border:1px solid #cdd5dd;border-radius:50%;cursor:pointer}
+.chart .circle-btn .left-triange{position:absolute;margin-top:5px;margin-left:1px;border:5px solid transparent;border-right:6px solid #cdd5dd}
+.chart .circle-btn .right-triange{position:absolute;margin-top:5px;margin-left:8px;border:5px solid transparent;border-left:6px solid #cdd5dd}
+.chart .circle-btn:hover{border:1px solid #ea6d10}.chart .circle-btn:hover .right-triange{border-left:6px solid #ea6d10}
+.chart .circle-btn:hover .left-triange{border-right:6px solid #ea6d10}.counts{white-space:nowrap;margin-top:119px}
+.count{margin:3%;background-color:#fff;width:160px;height:120px;padding-left:20px;padding-top:20px}
 .count .count-name{font-size:14px;font-weight:600;color:#4c5968}.count span{font-size:14px;font-weight:600;color:#4c5968}
 .count p{font-size:32px;font-weight:300;color:#ea6d10;line-height:1px;margin-bottom:15px}
 .count .total-tickets{font-size:13px;color:#cdd5dd}.index-btn{margin-right:-70%;padding:8px 49px}
