@@ -405,7 +405,7 @@ h2{color:#ea6d10;font-size:22px;font-weight:600}.flex{display:flex}.center{text-
 .pressed:hover,.pressed:link{background-image:none;background-color:#cdd5dd;color:#fff}
 .seach-form{margin-bottom:54px}.seach-form input[type=text]{display:inline-block;width:320px;height:42px;padding-left:20px;font-size:15px;border-radius:40px;background-color:#fff;border:solid 1px #cdd5dd;outline:0;color:#4c5968}
 .seach-form input[type=text]:hover,.seach-form input[type=text]:active{border:solid 1px #ea6d10}
-.seach-form .dates{display:inline-block;width:180px;height:42px}.seach-form .dates-inp{display:inline-block;width:180px;height:42px;padding-left:65px;font-size:15px;border-radius:40px;background-color:#fff;border:solid 1px #cdd5dd;outline:0;color:#4c5968;background-image:url("../img/calendar.svg");background-repeat:no-repeat;background-position:18px 10px}
+.seach-form .dates{display:inline-block;width:180px;height:42px}.seach-form .dates-inp{display:inline-block;width:180px;height:42px;padding-left:65px;font-size:15px;border-radius:40px;background-color:#fff;border:solid 1px #cdd5dd;outline:0;color:#4c5968;font-weight:100 !important;background-image:url("../img/calendar.svg");background-repeat:no-repeat;background-position:18px 10px}
 .seach-form .dates-inp:hover,.seach-form .dates-inp:active{border:solid 1px #ea6d10;background-image:url("../img/calendar-active.svg")}
 .seach-form input[type=date]{font-size:15px;width:180px;height:42px;border-radius:40px;background-color:#fff;border:solid 1px #cdd5dd;outline:0;color:#4c5968}
 .seach-form input[type=date]:hover,.seach-form input[type=date]:active{border:solid 1px #ea6d10}
@@ -415,8 +415,10 @@ h2{color:#ea6d10;font-size:22px;font-weight:600}.flex{display:flex}.center{text-
 .ct-point{stroke-width:9px;stroke-linecap:round;cursor:pointer}.ct-end{font-size:12px;text-align:center;color:#4c5968}
 .chart-cont{height:265px}.chartist-tooltip{margin-top:-5px;background:#fff;border-radius:5px;background-color:#fff;box-shadow:0 2px 4px 0 #cdd5dd;height:35px}
 .chartist-tooltip:before{border-top-color:#fff;width:5px;height:6px;margin-left:-13px;border:13px solid transparent;border-top-color:#fff}
-.ct-vertical{font-size:12px;text-align:right;color:#4c5968}@media only screen and (max-width:992px){.chart{width:100%;margin-bottom:-120px}
-.count{width:120px;height:100px}.index-btn{margin-right:-50%}}@media only screen and (max-width:768px){.count{margin:6%;width:180px;height:160px;text-align:-webkit-right}
+.ct-vertical{font-size:12px;text-align:right;color:#4c5968}.ui-datepicker-title p{margin-top:5px;font-size:16px;font-weight:600}
+.ui-datepicker-calendar span{font-weight:100 !important}.ui-state-default{font-weight:100 !important;font-size:12px}
+@media only screen and (max-width:992px){.chart{width:100%;margin-bottom:-120px}.count{width:120px;height:100px}
+.index-btn{margin-right:-50%}.t-cont .venue-col h3{margin-left:-3px}}@media only screen and (max-width:768px){.count{margin:6%;width:180px;height:160px;text-align:-webkit-right}
 }@media only screen and (max-width:600px){.count{margin:3%}.index-btn{margin-right:-20%}
 }@media only screen and (max-width:548px){.dates-inp{margin-top:20px}}@media only screen and (max-width:500px){.count{margin:4%;width:160px;height:140px}
 .index-btn{margin-right:2%}.wrap{display:block}.wrap svg{margin-left:0}}@media only screen and (max-width:444px){.top-mnu li a{font-size:16px}
