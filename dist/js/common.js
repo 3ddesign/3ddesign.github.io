@@ -1,4 +1,6 @@
 $(function () {
+
+
 //Custom Datepicker
     var cur = -1,
         prv = -1;
@@ -78,5 +80,45 @@ $(function () {
         event.stopPropagation();
     });
 
+//table sorter init:
     $("#myTable").tablesorter();
+
+
+//chart customisation:
+
+    var chart = new Chartist.Line('.ct-chart', {
+            labels: ['31.07', '1.08', '2.08', '3.08', '4.08', '5.08'],
+            series: [
+                [
+                    {meta: '$ 1000', value: 1},
+                    {meta: '$ 3000', value: 3},
+                    {meta: '$ 4000', value: 4},
+                    {meta: '$ 5000', value: 5},
+                    {meta: '$ 3000', value: 3},
+                    {meta: '$ 2000', value: 2},
+                    {meta: '$ 4000', value: 4}
+                ]
+
+            ]
+        },
+        {
+            low: 1,
+            high: 8,
+            width: '100%',
+            height: '215px',
+            type: 'gridBackground',
+            fullWidth: true,
+            plugins: [
+                Chartist.plugins.tooltip()
+            ],
+            axisY: {
+                offset: 50,
+                labelInterpolationFnc: function (value) {
+                    return '$ ' + value + '000';
+                },
+                scaleMinSpace: 20,
+
+            }
+        });
+
 });
