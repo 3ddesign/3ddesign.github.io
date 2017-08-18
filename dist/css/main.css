@@ -373,20 +373,20 @@ h2{color:#ea6d10;font-size:22px;font-weight:600}.flex{display:flex}.center{text-
 .t-cont table{border-radius:6px;border-spacing:0;text-align:left;width:100%;min-height:500px;background-color:#fff;overflow:scroll;color:#4c5968;background-color:rgba(226,231,236,0.1)}
 .t-cont table tbody{font-size:14px;text-align:left;color:#4c5968;font-weight:100 !important}
 .t-cont .artist-col{width:70px}.t-cont .artist-col h3{margin-right:20px}.t-cont .artist-col .line{margin-left:130px}
-.t-cont .artist-col .sort-image{margin-left:114px}.t-cont .artistid-col{width:1px}
+.t-cont .artist-col .sort-image{margin-left:117px}.t-cont .artistid-col{width:1px}
 .t-cont .artistid-col h3{margin-right:10px}.t-cont .artistid-col .line{margin-left:85px}
-.t-cont .artistid-col .sort-image{margin-left:65px}.t-cont .date-col{width:70px}.t-cont .date-col h3{margin-right:50px}
-.t-cont .date-col .line{margin-left:150px}.t-cont .date-col .sort-image{margin-left:130px}
-.t-cont .capacity-col h3{margin-right:45px}.t-cont .capacity-col .sort-image{margin-left:54px}
+.t-cont .artistid-col .sort-image{margin-left:72px}.t-cont .date-col{width:70px}.t-cont .date-col h3{margin-right:50px}
+.t-cont .date-col .line{margin-left:150px}.t-cont .date-col .sort-image{margin-left:136px}
+.t-cont .capacity-col h3{margin-right:45px}.t-cont .capacity-col .sort-image{margin-left:56px}
 .t-cont .sold1-col h3{margin-right:30px}.t-cont .sold2-col h3{margin-right:28px}.t-cont .venue-col{width:10px}
 .t-cont .venue-col h3{margin-left:-33px}.t-cont .venue-col .line{margin-left:85px}
-.t-cont .venue-col .sort-image{margin-left:70px}.t-cont .revenue-col{width:70px}.t-cont .revenue-col .sort-image{margin-left:107px}
+.t-cont .venue-col .sort-image{margin-left:72px}.t-cont .revenue-col{width:70px}.t-cont .revenue-col .sort-image{margin-left:107px}
 .t-cont tr{font-size:14px;text-align:left;color:#4c5968}.t-cont tr:hover{color:#ea6d10;cursor:pointer}
 .t-cont td+td{white-space:nowrap}.t-cont td,.t-cont th{padding:10px 25px}.t-cont th{height:0;line-height:0;padding-top:0;padding-bottom:0;border:0;white-space:nowrap;overflow:hidden}
 .t-cont th:last-child{border-right:0}.t-cont th div{position:absolute;font-size:13px;font-weight:600;color:#4c5968;min-width:65px;top:0;margin-left:-25px}
 .t-cont .t-item:before{content:'';background-color:#fff;width:1220px;height:1px;margin-top:44px;position:absolute;border-bottom:solid 1px #e3e7ec}
 .t-cont h3{text-align:center;font-size:13px;margin-top:23px}.t-cont td{padding-left:7px}
-.t-cont .line{height:44px;width:1px;background-color:#e3e7ec;position:absolute;margin-top:-35px;margin-left:70px}
+.t-cont .line{height:64px;width:1px;background-color:#e3e7ec;position:absolute;margin-top:-55px;margin-left:70px}
 .sort-image{width:8px;height:14px;margin-left:58px;margin-top:-20px;position:absolute;background-image:url(../img/sort.svg)}
 .sort-image:hover{background-image:url(../img/sort-active.svg)}.date-block{margin-top:63px;margin-bottom:27px;color:#4c5968;font-size:28px}
 .date-block svg{cursor:pointer;margin-left:28px;margin-right:5px}.date-block span{cursor:pointer;color:#9098a1;font-size:14px}
@@ -419,8 +419,8 @@ h2{color:#ea6d10;font-size:22px;font-weight:600}.flex{display:flex}.center{text-
 .ui-datepicker-calendar span{font-weight:100 !important}.ui-state-default{font-weight:100 !important;font-size:12px}
 @media only screen and (max-width:992px){.chart{width:100%;margin-bottom:-120px}.count{width:120px;height:100px}
 .index-btn{margin-right:-50%}.t-cont .venue-col h3{margin-left:-3px}}@media only screen and (max-width:768px){.count{margin:6%;width:180px;height:160px;text-align:-webkit-right}
-}@media only screen and (max-width:600px){.count{margin:3%}.index-btn{margin-right:-20%}
-}@media only screen and (max-width:548px){.dates-inp{margin-top:20px}}@media only screen and (max-width:500px){.count{margin:4%;width:160px;height:140px}
-.index-btn{margin-right:2%}.wrap{display:block}.wrap svg{margin-left:0}}@media only screen and (max-width:444px){.top-mnu li a{font-size:16px}
-.count{margin:5%;width:120px;height:100px}.wrap{display:block}.wrap svg{margin-left:0}
+}@media only screen and (max-width:600px){.index-btn{margin-right:-20%}}@media only screen and (max-width:548px){.dates-inp{margin-top:20px}
+}@media only screen and (max-width:500px){.count{margin:4%;width:160px;height:140px}
+.index-btn{margin-right:2%}.wrap{display:block}.wrap svg{margin-left:7px}}@media only screen and (max-width:444px){.top-mnu li a{font-size:16px}
+.count{margin:5%;width:120px;height:100px}.wrap{display:block}.wrap svg{margin-left:7px}
 }
