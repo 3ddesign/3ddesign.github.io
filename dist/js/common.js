@@ -121,4 +121,24 @@ $(function () {
             }
         });
 
+
+    //Table search:
+
+    $("#search").keyup(function () {
+        _this = this;
+        $.each($("#myTable tbody tr"), function () {
+            if ($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1)
+                $(this).hide();
+            else
+                $(this).show();
+        });
+        if ($(".evenrow").is(":visible") || $(".oddrow").is(":visible")) {
+            $("#myTable").css('visibility', 'visible');
+        }
+        else {
+            $("#myTable").css('visibility', 'hidden');
+        }
+    });
+
+
 });

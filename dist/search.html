@@ -6,8 +6,7 @@
   <title>Search - Sales Tracker</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="./css/main.css">
-  <!--delete:-->
-  <!--<link rel="stylesheet" href="./libs/jquery-ui.css">-->
+
 </head>
 
 <body>
@@ -24,7 +23,7 @@
       <div class="col-xs-12 center">
         <h2>Search for Upcoming & Historical Events</h2>
         <form class="seach-form">
-          <input type="text">
+          <input type="text" id="search">
 
           <div id="jrange" class="dates">
             <input  class="dates-inp"/>
@@ -35,8 +34,6 @@
     </div>
   </div>
 </header>
-
-
 
 <div class="container">
   <div class="row">
@@ -113,7 +110,7 @@
               <td class="">3567</td>
               <td class="">06789</td>
               <td class="">356789</td>
-              <td class="">Veronica Maggio</td>
+              <td class="aname">Veronica Maggio</td>
               <td class="">05.09.17, 4:30 pm</td>
               <td class="">Stadion</td>
               <td class="">40 000</td>
@@ -126,7 +123,7 @@
               <td class="">3568</td>
               <td class="">06790</td>
               <td class="">356789</td>
-              <td class="">Sofia Karlberg</td>
+              <td class="aname">Sofia Karlberg</td>
               <td class="">10.09.17, 7:20 pm</td>
               <td class="">Ullevi</td>
               <td class="">40 000</td>
@@ -139,7 +136,7 @@
               <td class="">3569</td>
               <td class="">06791</td>
               <td class="">356789</td>
-              <td class="">Jerry Williams</td>
+              <td class="aname">Jerry Williams</td>
               <td class="">20.09.17, 10:00 am</td>
               <td class="">Debaser</td>
               <td class="">40 000</td>
@@ -152,7 +149,7 @@
               <td class="">3570</td>
               <td class="">06792</td>
               <td class="">356789</td>
-              <td class="">Veronica Maggio</td>
+              <td class="aname">Veronica Maggio</td>
               <td class="">20.09.17, 7:20 pm</td>
               <td class="">Stadion</td>
               <td class="">40 000</td>
@@ -165,7 +162,7 @@
               <td class="">3572</td>
               <td class="">06793</td>
               <td class="">356789</td>
-              <td class="">Veronica Maggio</td>
+              <td class="aname">Veronica Maggio</td>
               <td class="">25.09.17, 6:00 pm</td>
               <td class="">Stadion</td>
               <td class="">40 000</td>
@@ -178,7 +175,7 @@
               <td class="">3573</td>
               <td class="">06794</td>
               <td class="">356789</td>
-              <td class="">Petter</td>
+              <td class="aname">Petter</td>
               <td class="">02.10.17, 11:00 am</td>
               <td class="">Liseberg</td>
               <td class="">40 000</td>
@@ -191,7 +188,7 @@
               <td class="">3574</td>
               <td class="">06795</td>
               <td class="">356789</td>
-              <td class="">Petter</td>
+              <td class="aname">Petter</td>
               <td class="">3.10.17, 9:20 pm</td>
               <td class="">Liseberg</td>
               <td class="">40 000</td>
@@ -204,7 +201,7 @@
               <td class="">3575</td>
               <td class="">06789</td>
               <td class="">356789</td>
-              <td class="">Nause</td>
+              <td class="aname">Nause</td>
               <td class="">10.10.17, 5:40 pm</td>
               <td class="">Obaren</td>
               <td class="">40 000</td>
@@ -217,7 +214,7 @@
               <td class="">3576</td>
               <td class="">06789</td>
               <td class="">356789</td>
-              <td class="">Veronica Maggio</td>
+              <td class="aname">Veronica Maggio</td>
               <td class="">12.10.17, 8:20 pm</td>
               <td class="">Stadion</td>
               <td class="">40 000</td>
@@ -230,7 +227,7 @@
               <td class="">3577</td>
               <td class="">06789</td>
               <td class="">356789</td>
-              <td class="">Veronica Maggio</td>
+              <td class="aname">Veronica Maggio</td>
               <td class="">12.10.17, 8:20 pm</td>
               <td class="">Stadion</td>
               <td class="">40 000</td>
@@ -243,7 +240,7 @@
               <td class="">3578</td>
               <td class="">06789</td>
               <td class="">356789</td>
-              <td class="">Veronica Maggio</td>
+              <td class="aname">Veronica Maggio</td>
               <td class="">12.10.17, 8:20 pm</td>
               <td class="">Stadion</td>
               <td class="">40 000</td>
@@ -256,7 +253,7 @@
               <td class="">3579</td>
               <td class="">06789</td>
               <td class="">356789</td>
-              <td class="">Veronica Maggio</td>
+              <td class="aname">Veronica Maggio</td>
               <td class="">12.10.17, 8:20 pm</td>
               <td class="">Stadion</td>
               <td class="">40 000</td>
@@ -269,7 +266,7 @@
               <td class="">3579</td>
               <td class="">06789</td>
               <td class="">356789</td>
-              <td class="">Veronica Maggio</td>
+              <td class="aname">Veronica Maggio</td>
               <td class="">12.10.17, 8:20 pm</td>
               <td class="">Stadion</td>
               <td class="">40 000</td>
@@ -282,7 +279,7 @@
               <td class="">3579</td>
               <td class="">06789</td>
               <td class="">356789</td>
-              <td class="">Veronica Maggio</td>
+              <td class="aname">Veronica Maggio</td>
               <td class="">12.10.17, 8:20 pm</td>
               <td class="">Stadion</td>
               <td class="">40 000</td>
@@ -291,6 +288,7 @@
               <td class="">$ 132 060</td>
 
             </tr>
+
 
             </tbody>
           </table>
