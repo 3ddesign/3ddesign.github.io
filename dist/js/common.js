@@ -134,9 +134,16 @@ $(function () {
         });
         if ($(".evenrow").is(":visible") || $(".oddrow").is(":visible")) {
             $("#myTable").css('visibility', 'visible');
+            $(".chart-cont").css('visibility', 'visible');
+            $(".counts").css('visibility', 'visible');
+
+            $(".noresult").css('visibility', 'hidden');
         }
         else {
             $("#myTable").css('visibility', 'hidden');
+            $(".chart-cont").css('visibility', 'hidden');
+            $(".counts").css('visibility', 'hidden');
+            $(".noresult").css('visibility', 'visible');
         }
     });
 
