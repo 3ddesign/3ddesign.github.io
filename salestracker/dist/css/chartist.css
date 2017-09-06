@@ -311,7 +311,7 @@
   .ct-major-second:after {
     content: "";
     display: table;
-    clear: both; }ls
+    clear: both; }
   .ct-major-second > svg {
     display: block;
     position: absolute;
