@@ -1,0 +1,284 @@
+.topcolumns {
+    height: 340px;
+    background: -moz-linear-gradient(top, rgba(116, 80, 131, 1) 0%, rgba(50, 37, 57, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(116, 80, 131, 1) 0%, rgba(50, 37, 57, 1) 100%);
+    background: -o-linear-gradient(top, rgba(116, 80, 131, 1) 0%, rgba(50, 37, 57, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(116, 80, 131, 1) 0%, rgba(50, 37, 57, 1) 100%);
+    background: linear-gradient(to bottom, rgba(116, 80, 131, 1) 0%, rgba(50, 37, 57, 1) 100%);
+    border-top: 1px solid #33253a;
+    border-bottom: 1px solid #0d151b;
+}
+
+.topcolumns_wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.topcolumn1 {
+    float: left;
+    position: relative;
+    width: 231px;
+    height: 264px;
+    padding-top: 77px;
+    padding-left: 64px;
+}
+
+.topcolumn2 {
+    position: relative;
+    width: 231px;
+    height: 264px;
+    float: left;
+    padding-top: 77px;
+    padding-left: 108px;
+}
+
+.topcolumn3 {
+    position: relative;
+    width: 231px;
+    height: 264px;
+    float: right;
+    padding-top: 77px;
+    padding-left: 2px;
+}
+
+.column__header {
+    color: #fff;
+    font-family: "League Gothic Regular", Arial, sans-serif;
+    font-size: 30px;
+    text-shadow: 0 1px 0 #0e1418;
+    padding-bottom: 8px;
+    padding-left: 6px;
+}
+
+.column__text {
+    color: #fff;
+    font-family: "Open-Sans Light", Arial, sans-serif;
+    font-size: 16px;
+    text-shadow: 0 1px 0 #0e1418;
+    padding: 0 0 20px 5px;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.column__link {
+    float: right;
+    padding-right: 9px;
+    color: #fff;
+    font-family: "League Gothic Regular", Arial, sans-serif;
+    font-size: 18px;
+    text-shadow: 0 1px 0 #0e1418;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.column__link:hover {
+    text-shadow: 0 0 8px #fff;
+}
+
+.column__img {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: -55px;
+}
+
+.pic1 {
+    position: absolute;
+    top: 83px;
+    left: 17px;
+    height: 29px;
+    width: 30px;
+    background: url("../img/icons.png") -4px -15px;
+}
+
+.pic2 {
+    position: absolute;
+    top: 83px;
+    margin-left: -49px;
+    height: 29px;
+    width: 30px;
+    background: url("../img/icons.png") -36px -15px;
+}
+
+.pic3 {
+    position: absolute;
+    top: 83px;
+    margin-left: -49px;
+    height: 29px;
+    width: 30px;
+    background: url("../img/icons.png") -67px -15px;
+}
+
+@media all and (min-width: 769px) and (max-width: 960px) {
+    .topcolumns_wrapper {
+        width: 745px;
+        margin: 0 auto;
+    }
+    .column__header {
+        font-size: 24px;
+    }
+    .topcolumn1 {
+        width: 179px;
+        height: 180px;
+        padding-top: 77px;
+    }
+    .topcolumnp {
+        height: 150px;
+        overflow: hidden;
+    }
+    .topcolumn2 {
+        width: 180px;
+        padding-top: 77px;
+        padding-left: 75px;
+        height: 180px;
+    }
+    .topcolumn3 {
+        width: 179px;
+        padding-top: 77px;
+        padding-left: 69px;
+        margin-right: -13px;
+        height: 180px;
+    }
+    .column__text {
+        line-height: 24px;
+        overflow: hidden;
+    }
+    .pic1 {
+        top: 79px;
+        left: 17px;
+    }
+    .pic2 {
+        top: 79px;
+        margin-left: -45px;
+        background: url("../img/icons.png") -36px -15px;
+    }
+    .pic3 {
+        top: 79px;
+        margin-left: -55spx;
+        background: url("../img/icons.png") -67px -15px;
+    }
+    .column__link {
+        padding-right: 27px;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .topcolumns {
+        height: 596px;
+    }
+    .topcolumns_wrapper {
+        width: 450px;
+        margin: 0 auto;
+    }
+    .column__header {
+        font-size: 24px;
+    }
+    .column__header {
+        padding-bottom: 2px;
+    }
+    .topcolumnp {
+        width: 380px;
+        height: 78px;
+        overflow: hidden;
+    }
+    .topcolumn1 {
+        width: 400px;
+        height: 158px;
+        padding-top: 77px;
+    }
+    .topcolumn2 {
+        width: 400px;
+        height: 160px;
+        padding-top: 0px;
+        padding-left: 62px;
+    }
+    .topcolumn3 {
+        width: 400px;
+        padding-top: 0px;
+        padding-left: 69px;
+        margin-right: -13px;
+        height: 160px;
+    }
+    .column__text {
+        line-height: 24px;
+        overflow: hidden;
+    }
+    .pic1 {
+        top: 79px;
+        left: 17px;
+    }
+    .pic2 {
+        top: 0px;
+        margin-left: -45px;
+        background: url("../img/icons.png") -36px -15px;
+    }
+    .pic3 {
+        top: 0px;
+        margin-left: -55spx;
+        background: url("../img/icons.png") -67px -15px;
+    }
+    .column__link {
+        padding-top: 10px;
+        padding-right: 25px;
+    }
+}
+
+@media all and (min-width: 0px) and (max-width: 479px) {
+    .topcolumns {
+        height: 596px;
+    }
+    .topcolumns_wrapper {
+        width: 296px;
+        margin: 0 auto;
+    }
+    .column__header {
+        font-size: 24px;
+    }
+    .column__header {
+        padding-bottom: 2px;
+    }
+    .topcolumnp {
+        width: 220px;
+        height: 78px;
+        overflow: hidden;
+    }
+    .topcolumn1 {
+        width: 230px;
+        height: 158px;
+        padding-top: 70px;
+    }
+    .topcolumn2 {
+        width: 230px;
+        height: 160px;
+        padding-top: 0px;
+        padding-left: 65px;
+    }
+    .topcolumn3 {
+        width: 230px;
+        padding-top: 12px;
+        padding-left: 65px;
+        height: 160px;
+    }
+    .column__text {
+        line-height: 24px;
+        overflow: hidden;
+    }
+    .pic1 {
+        top: 71px;
+        left: 19px;
+    }
+    .pic2 {
+        top: 0px;
+        margin-left: -46px;
+        background: url("../img/icons.png") -36px -15px;
+    }
+    .pic3 {
+        top: 13px;
+        margin-left: -47px;
+        background: url("../img/icons.png") -67px -15px;
+    }
+    .column__link {
+        padding-top: 10px;
+        padding-left: 160px;
+        float: left;
+    }
+}
